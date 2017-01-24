@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wuang.library.dao.mapper.WorkerMapper">
+  <resultMap id="BaseResultMap" type="com.wuang.library.dao.model.Worker">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="userCode" jdbcType="VARCHAR" property="usercode" />
+    <result column="userName" jdbcType="VARCHAR" property="username" />
+    <result column="userAccount" jdbcType="VARCHAR" property="useraccount" />
+    <result column="userMail" jdbcType="VARCHAR" property="usermail" />
+    <result column="userPhone" jdbcType="VARCHAR" property="userphone" />
+    <result column="userPasswd" jdbcType="VARCHAR" property="userpasswd" />
+    <result column="userAge" jdbcType="VARCHAR" property="userage" />
+    <result column="userBirthday" jdbcType="VARCHAR" property="userbirthday" />
+    <result column="userState" jdbcType="VARCHAR" property="userstate" />
+    <result column="userPowerId" jdbcType="VARCHAR" property="userpowerid" />
+    <result column="userCompany" jdbcType="VARCHAR" property="usercompany" />
+    <result column="userPic" jdbcType="VARCHAR" property="userpic" />
+    <result column="createTime" jdbcType="VARCHAR" property="createtime" />
+    <result column="createId" jdbcType="VARCHAR" property="createid" />
+  </resultMap>
+</mapper>

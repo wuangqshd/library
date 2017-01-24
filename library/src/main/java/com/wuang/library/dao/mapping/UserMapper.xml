@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wuang.library.dao.mapper.UserMapper" >
+  <resultMap id="BaseResultMap" type="com.wuang.library.dao.model.User" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="userCode" property="usercode" jdbcType="VARCHAR" />
+    <result column="userBorrowCode" property="userborrowcode" jdbcType="VARCHAR" />
+    <result column="userIdentityId" property="useridentityid" jdbcType="VARCHAR" />
+    <result column="userName" property="username" jdbcType="VARCHAR" />
+    <result column="userAccount" property="useraccount" jdbcType="VARCHAR" />
+    <result column="userMail" property="usermail" jdbcType="VARCHAR" />
+    <result column="userPhone" property="userphone" jdbcType="VARCHAR" />
+    <result column="userPasswd" property="userpasswd" jdbcType="VARCHAR" />
+    <result column="userAge" property="userage" jdbcType="VARCHAR" />
+    <result column="userBirthday" property="userbirthday" jdbcType="VARCHAR" />
+    <result column="userState" property="userstate" jdbcType="VARCHAR" />
+    <result column="userCompany" property="usercompany" jdbcType="VARCHAR" />
+    <result column="ruleId" property="ruleid" jdbcType="VARCHAR" />
+    <result column="userClass" property="userclass" jdbcType="VARCHAR" />
+    <result column="userPic" property="userpic" jdbcType="VARCHAR" />
+    <result column="userRole" property="userrole" jdbcType="VARCHAR" />
+    <result column="userNum" property="usernum" jdbcType="VARCHAR" />
+    <result column="userTime" property="usertime" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

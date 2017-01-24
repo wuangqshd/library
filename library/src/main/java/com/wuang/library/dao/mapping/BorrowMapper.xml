@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wuang.library.dao.mapper.BorrowMapper" >
+  <resultMap id="BaseResultMap" type="com.wuang.library.dao.model.Borrow" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="bookId" property="bookid" jdbcType="VARCHAR" />
+    <result column="userId" property="userid" jdbcType="VARCHAR" />
+    <result column="borrowTime" property="borrowtime" jdbcType="VARCHAR" />
+    <result column="mangerId" property="mangerid" jdbcType="VARCHAR" />
+    <result column="stillTime" property="stilltime" jdbcType="VARCHAR" />
+    <result column="borrowState" property="borrowstate" jdbcType="VARCHAR" />
+    <result column="borrowOverPrice" property="borrowoverprice" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

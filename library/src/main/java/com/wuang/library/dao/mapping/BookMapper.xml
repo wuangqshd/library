@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wuang.library.dao.mapper.BookMapper">
+  <resultMap id="BaseResultMap" type="com.wuang.library.dao.model.Book">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="bookName" jdbcType="VARCHAR" property="bookname" />
+    <result column="bookPress" jdbcType="VARCHAR" property="bookpress" />
+    <result column="bookIntroduction" jdbcType="VARCHAR" property="bookintroduction" />
+    <result column="bookClass" jdbcType="VARCHAR" property="bookclass" />
+    <result column="bookPice" jdbcType="VARCHAR" property="bookpice" />
+    <result column="bookWriter" jdbcType="VARCHAR" property="bookwriter" />
+    <result column="bookState" jdbcType="VARCHAR" property="bookstate" />
+    <result column="borrowNum" jdbcType="VARCHAR" property="borrownum" />
+    <result column="createTime" jdbcType="VARCHAR" property="createtime" />
+    <result column="createId" jdbcType="VARCHAR" property="createid" />
+    <result column="bookCode" jdbcType="VARCHAR" property="bookcode" />
+  </resultMap>
+</mapper>

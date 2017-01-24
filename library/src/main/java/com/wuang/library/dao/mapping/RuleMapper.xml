@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wuang.library.dao.mapper.RuleMapper" >
+  <resultMap id="BaseResultMap" type="com.wuang.library.dao.model.Rule" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="ruleName" property="rulename" jdbcType="VARCHAR" />
+    <result column="ruleContext" property="rulecontext" jdbcType="VARCHAR" />
+    <result column="ruleNum" property="rulenum" jdbcType="VARCHAR" />
+    <result column="ruleTime" property="ruletime" jdbcType="VARCHAR" />
+    <result column="ruleOverPrice" property="ruleoverprice" jdbcType="VARCHAR" />
+    <result column="ruleState" property="rulestate" jdbcType="VARCHAR" />
+    <result column="createId" property="createid" jdbcType="VARCHAR" />
+    <result column="startTime" property="starttime" jdbcType="VARCHAR" />
+    <result column="endTime" property="endtime" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

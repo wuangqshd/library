@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wuang.library.dao.mapper.PagerMapper">
+  <resultMap id="BaseResultMap" type="com.wuang.library.dao.model.Pager">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="menuName" jdbcType="VARCHAR" property="menuname" />
+    <result column="menuAbout" jdbcType="VARCHAR" property="menuabout" />
+    <result column="createId" jdbcType="VARCHAR" property="createid" />
+    <result column="menuUrl" jdbcType="VARCHAR" property="menuurl" />
+    <result column="pageTarget" jdbcType="VARCHAR" property="pagetarget" />
+    <result column="createTime" jdbcType="VARCHAR" property="createtime" />
+  </resultMap>
+</mapper>
